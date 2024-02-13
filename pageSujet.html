@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logoOnglet.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sujet du projet Java </title>
+</head>
+<body>
+    <header id="hautPage">
+        <p>CY CERGY PARIS UNIVERSITE - License Informatique 2ème année - Chadi ALKERDI - 2023/2024</p>
+        <a href="index.html"><img src="images/logoCY.png" alt="Retour au menu"></a>
+        <h1 >Checker & Beautifier in Java for
+            python language
+            </h1>
+        <h2>Projet POO & Java L2-I 2023-2024
+        </h2>
+        <img src="images/imageSujet1.png" alt="imageSujet1">
+        <h2>version 1.0 du 07/11/2023
+        </h2>    
+    
+        
+    </header>
+
+    <main>
+        <section>
+            <h2>Objectif</h2>
+                <p>Le projet de POO - Java permet de mettre en œuvre les principaux éléments du contenu du
+                    module dans le cadre de la conception d'une petite application. Le travail est à réaliser en binôme
+                    (exceptionnellement seul, pour les situations particulières1
+                    ). Les binômes sont à constituer dans les
+                    groupes de TD.
+                    Rappel des modalités d’évaluation (M3C2
+                    : Modalités de Contrôle de Connaissances et de
+                    Compétences) :</p>
+                <p>le module de POO-Java est en Contrôle Continu Intégral (CCI) : le projet compte pour 1/3
+                    de l'évaluation de l’UE « POO / Java » (+1/3 CC + 1/3 exam.). Comme pour la partie CC, il
+                    n'y a pas de seconde session pour le projet et la note obtenue est reportée en session 2.</p>
+        </section>
+
+
+        <section>
+            <h2>Contexte du projet</h2>
+                <p>On s’intéresse dans ce projet à la qualité des codes python (fichiers d’extension « .py ») en
+                    particulier pour les aspects de typage et de commentaire des codes. L’application à réaliser doit
+                    donc aider le développeur python dans ces 2 axes. (tous les exemples de codes python sont issus
+                    d’exercices proposés au premier semestre de L1 MIPI afin de faciliter la compréhension du contexte
+                    du projet).
+                </p>
+                <article>
+                <h3>Premier axe : le typage</h3>
+                <p>On prend comme exemple les différentes versions d’un même code python (toutes les versions
+                    sont exécutables : on ne s’intéresse pas dans ce projet aux erreurs de syntaxe3
+                    ).L’application devra donc aider le développeur à renforcer son code en l’incitant à utiliser les
+                    annotations de type : pour cela il sera nécessaire de détecter l’absence des annotations de type dans
+                    les codes sources python.
+                </p>
+                </article>
+
+                <article>
+                    <h3>Second axe : les commentaires de documentation : « doc
+                        strings »</h3>
+                    <p>Pour cela, une partie des commentaires de documentation peut être automatisée, en particulier les
+                        deux premières lignes de « déclaration » du langage4
+                         et de l’encodage, ainsi que le squelette du
+                        commentaire de fonction au format « pydoc » (aussi appelé « doc strings »).
+                        Ce type de commentaires permet ensuite de générer une documentation au format HTML, tout
+                        comme la javadoc en Java (les tags sont majoritairement identiques en python et en Java :
+                        @version, @author, @param, @return, @see). Le fichier source complet ainsi qu’une capture
+                        d’écran du résultat obtenu est fourni en complément de ce sujet. Mais il n’est pas demandé dans le
+                        projet de générer les fichiers HTML, uniquement de préparer les fichier python avec un squelette de
+                        commentaire « pydoc ».
+                    </p>
+                </article>
+
+
+        </section>
+
+        
+            <div>
+            <p>Complétude et qualité du projet : 7 points (fichier « readme.md », code java, javadoc, fichiers jar).
+                Livrables à déposer sur la plate-forme pédagogique avant le <strong>ven. 29 déc. 23.</strong>
+            </p>
+            <ol>
+                <li>Fichier « readme.md » contenant les noms, prénoms, groupe TD des membres du projet ainsi que les informations spécifiques utiles.</li>
+                <li>Rapport de projet (minimum 5 pages, maximum 10 pages) : 3 points (le fond et la forme seront évalués). Les deux fichiers suivants sont à rendre :
+                    <ul>
+                        <li>Le document de traitement de texte (docx ou odt10)</li>
+                        <li>La version PDF de votre rapport</li>
+                    </ul>
+                </li>
+                <li>Ensembles des fichiers sources du projet (.java)</li>
+                <li>La javadoc</li>
+                <li>Les deux fichiers jar en version compatible Java SE 17 (LTS)</li>
+            </ol>
+            
+            <p><strong>IMPORTANT :</strong> Tous les fichiers et sous-dossiers à remettre doivent être placés dans un répertoire unique portant les deux noms du binôme (sous la forme NOM1_NOM2), à compresser en un seul fichier au format zip qui sera déposé sur la plate-forme pédagogique de cours (moodle).</p>
+            </div>
+        
+        
+
+        <section>
+            <h2>Ressources Web</h2>
+            <ol>
+                <li><a href="https://flake8.pycqa.org/en/latest/user/invocation.html">https://flake8.pycqa.org/en/latest/user/invocation.html</a></li>
+                <li><a href="https://realpython.com/python-type-checking/">https://realpython.com/python-type-checking/</a></li>
+                <li><a href="https://peps.python.org/pep-0008/">https://peps.python.org/pep-0008/</a></li>
+                <li><a href="https://docs.python.org/3/library/typing.html">https://docs.python.org/3/library/typing.html</a></li>
+                <li><a href="https://pypi.org/project/pep8/">https://pypi.org/project/pep8/</a></li>
+                <li><a href=" https://codebeautify.org/python-formatter-beautifier"> https://codebeautify.org/python-formatter-beautifier</a></li>
+
+            </ol>
+            <p>Principaux logiciels permettant de vérifier la qualité d’un code python :
+            </p>
+            <ol>
+                <li>mypy</li>
+                <li>pycodestyle</li>
+                <li>flake8</li>
+            </ol>
+        </section>
+
+    </main>
+
+    <footer>    
+        <a href="index.html"><img src="images/logoCY.png" alt="Retour au menu"></a> <a href="#hautPage">Revenir en haut de page</a>
+        <p>CY CERGY PARIS UNIVERSITE - License Informatique 2ème année </p>
+    </footer>
+
+</body>
